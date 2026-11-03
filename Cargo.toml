@@ -50,7 +50,10 @@ version = "0.3"
 version = "0.2"
 
 [dependencies.paste]
-version = "1"
+# Retain upstream macro paths while using the maintained, API-compatible successor.
+# 使用持续维护且 API 兼容的后继库，同时保留上游宏路径。
+package = "pastey"
+version = "=0.2.3"
 
 [dependencies.seq-macro]
 version = "0.3"
